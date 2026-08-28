@@ -195,6 +195,74 @@
             margin-bottom: 1rem;
         }
 
+        .contact-section {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .contact-section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .contact-details p {
+            margin-bottom: 0.8rem;
+            color: #555;
+        }
+
+        .contact-details a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 0.75rem 1rem;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .contact-form textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .contact-form button {
+            align-self: flex-start;
+            padding: 0.75rem 1.5rem;
+            background-color: #2196F3;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #1976D2;
+        }
+
         @media (max-width: 768px) {
             .profile-section {
                 grid-template-columns: 1fr;
@@ -212,6 +280,10 @@
             .social-link {
                 justify-content: center;
             }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -222,6 +294,7 @@
             <div class="nav-links">
                 <a href="projects.html">Projects</a>
                 <a href="files/Maaz_cv.pdf" target="_blank">CV</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
 
@@ -277,6 +350,25 @@
                 </div>
             </div>
         </div>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <p>I'd like to hear from you — whether it's about a project, a class, or just to say hello.</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:maaz.amjad@ttu.edu">maaz.amjad@ttu.edu</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lubbock, Texas, United States</p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/MaazAmjad" target="_blank" rel="noopener noreferrer">github.com/MaazAmjad</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/maazmjad/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </div>
+                <form class="contact-form" action="mailto:maaz.amjad@ttu.edu" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send message</button>
+                </form>
+            </div>
+        </section>
     </div>
 </body>
 </html>
