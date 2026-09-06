@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Profile</title>
+    <title>CV - Amar Kushwaha</title>
     <style>
-        /* [Previous styles remain the same] */
-        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .name-title {
+            font-size: 1.5rem;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #666;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #2196F3;
+        }
+
         .cv-section {
             text-align: center;
             padding: 3rem;
@@ -41,28 +86,35 @@
             margin-top: 1rem;
             color: #666;
         }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <nav>
-            <a href="#" class="name-title">Maaz Amjad</a>
+            <a href="index.html" class="name-title">Amar Kushwaha</a>
             <div class="nav-links">
-                <a href="#projects">Projects</a>
-                <a href="#cv">CV</a>
+                <a href="index.html#about">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="files/Amar_Kushwaha_Resume.pdf" target="_blank">CV</a>
             </div>
         </nav>
 
-        <!-- Other sections remain the same -->
-
         <section id="cv" class="cv-section">
-            <a href="files/Resume.pdf" class="cv-download-button" target="_blank">
+            <a href="files/Amar_Kushwaha_Resume.pdf" class="cv-download-button" target="_blank" rel="noopener noreferrer">
                 <svg class="cv-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M12 2v13m0 0l-3-3m3 3l3-3M3 17v3a2 2 0 002 2h14a2 2 0 002-2v-3"/>
                 </svg>
                 Download CV
             </a>
-            <p class="cv-description">Last updated: November 2024</p>
+            <p class="cv-description">Amar Kushwaha — résumé (PDF). Last updated: 2026.</p>
         </section>
     </div>
 </body>
