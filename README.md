@@ -1,82 +1,42 @@
-# GitHub Template Repository
+# Amar Kushwaha — Personal Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+A personal portfolio website for **CS 3365 (Software Engineering)** at Texas Tech University. Built with plain HTML and CSS and version-controlled with Git and GitHub using feature branches.
 
----
+## Description
 
-## 📂 Repository Structure
-The template includes the following structure:
+This site introduces me, lists technical skills, showcases selected projects, and provides professional contact links. Content is based on my portfolio at [amarkushwaha.com](https://amarkushwaha.com).
 
-```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
- ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
-```
+## Technologies used
 
----
+- HTML5
+- CSS3
+- Git & GitHub
+- GitHub Pages
 
-## 🚀 Getting Started
+## Live site
 
-### 1. **Clone or Download This Repository**  
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/MaazAmjad/create_website.git
-```
-Alternatively, download it as a ZIP file and extract it.
+**GitHub Pages:** [https://kushwahaamar-dev.github.io/create_website/](https://kushwahaamar-dev.github.io/create_website/)
 
----
+## How to view
 
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
-
----
-
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
-
----
-
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
+1. Open the live link above, or
+2. Clone this repository and open `index.html` in a browser:
 
 ```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
+git clone https://github.com/kushwahaamar-dev/create_website.git
+cd create_website
+open index.html
 ```
 
----
+## Pages
 
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
+| File | Section |
+|------|---------|
+| `index.html` | Home, About, Skills, Contact |
+| `projects.html` | Selected projects |
+| `cv.html` | Résumé download |
+| `files/Amar_Kushwaha_Resume.pdf` | Résumé PDF |
 
----
+## Git workflow
 
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
-
----
-
-Celebrate and enjoy your coding experience! 🚀
+Development used feature branches (`feature-about`, `feature-skills`, `feature-projects`, `feature-contact`) merged into `main`, with incremental commits reflecting the build process.
