@@ -36,8 +36,8 @@ open index.html
 |------|---------|
 | `index.html` | Home, About, Skills, Contact |
 | `projects.html` | Selected projects |
-| `cv.html` | Résumé download |
-| `files/Amar_Kushwaha_Resume.pdf` | Résumé PDF |
+| `cv.html` | Resume download |
+| `files/Amar_Kushwaha_Resume.pdf` | Resume PDF |
 
 ## Git workflow
 
