@@ -1,5 +1,7 @@
 # Amar Kushwaha — Personal Portfolio
 
+> CS 3365 Assignment 1 — Build & Deploy Your Personal Portfolio
+
 A personal portfolio website for **CS 3365 (Software Engineering)** at Texas Tech University. Built with plain HTML and CSS and version-controlled with Git and GitHub using feature branches.
 
 ## Description
